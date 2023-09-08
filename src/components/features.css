@@ -1,0 +1,55 @@
+.fa-container{
+    /* background-color: rgb(176, 32, 32); */
+    height: 30rem;
+    width: 25rem;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+    border: #D35F5F .8rem solid;
+    margin-left: 1rem;
+    transition: transform 0.3s ease;
+    margin-bottom: 4rem;
+
+
+    
+}
+
+
+.fa-container:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+
+.fa-text{
+    font-size: x-large;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #D35F5F;
+    text-transform: uppercase;
+}
+.fa-logo{
+    margin-top: 5rem;
+    color: #D35F5F;
+    font-weight: bolder;
+}
+
+.fa-h2{
+    color: #D35F5F;
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+

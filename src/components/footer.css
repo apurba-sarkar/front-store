@@ -1,0 +1,28 @@
+
+.main-footer{
+    background-color:#12333b;
+    height: 25rem;
+
+}
+
+.fo{
+    padding-top: 4.5rem;
+    display: flex;
+    justify-content:start ;
+    align-items: start;
+    margin:0  5rem;
+    /* padding-right: 30rem; */
+    gap: 12rem;
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+}
+
+.fo div:focus{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo-footer{
+    margin-top: -2rem;
+}

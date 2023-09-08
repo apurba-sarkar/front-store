@@ -1,0 +1,19 @@
+.main-home{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content:center;
+    /* margin-top: 2rem; */
+    
+}
+.left{
+    /* background-color: blue; */
+    width: 50%;
+}
+.right{
+    /* background-color: rgb(199, 194, 33); */
+    width: 50%;
+}
+.imghome2{
+    height: 40rem;
+    /* align-items: center; */
+}

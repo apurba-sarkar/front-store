@@ -1,0 +1,12 @@
+.brand{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+}
+.brand img{
+    height: 10rem;
+    color: white;
+    filter: grayscale(100%) invert(100%);
+}

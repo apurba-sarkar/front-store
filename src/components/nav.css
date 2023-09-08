@@ -1,0 +1,50 @@
+.main {
+  background-color: #d35f5f;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  /* padding: 0 4rem */
+  
+}
+
+.main-nav2{
+ 
+display: flex;
+gap: 4rem;
+margin-right: 5rem;
+justify-content: center;
+align-items: center;
+/* padding:0 4rem; */
+}
+
+
+.active:focus,.active:active{
+  background-color: white;
+  /* padding-left: 1rem; */
+  color: #d35f5f;
+  border-radius: -10%;
+  text-decoration: none;
+  padding:2rem ;
+}
+
+.main-nav2 a{
+  text-decoration:none;
+  color: white;
+
+}
+
+.cart-number{
+  position: absolute;
+  top: 1rem;
+  right: -2.5rem;
+  border-top-left-radius: 4px
+}
+
+.cart{
+  position: relative;
+  display: inline-block; 
+}
