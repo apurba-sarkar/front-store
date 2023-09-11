@@ -10,6 +10,7 @@ import Cart from "./Cart";
 import Error from "./Error";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Collab from "./components/Collab";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/singleProduct/:id" element={<SingleProduct />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
+          <Route path="/collab" element={<Collab />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
         <Footer/>
