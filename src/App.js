@@ -11,12 +11,15 @@ import Error from "./Error";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Collab from "./components/Collab";
+import ProgressBar from "react-scroll-progress-bar";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ProgressBar />
           <Header/>
+          
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
