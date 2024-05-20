@@ -15,8 +15,8 @@ developer by  $${\color{blue}Apurba Sarkar}$$
 
 ## Technology used:
 - react js
--react slick
--tailwind css
+- react slick
+- tailwind css
 
 
 
